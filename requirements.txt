@@ -1,0 +1,10 @@
+# 多智能体（Multi-Agent）增长诊断系统 · 依赖
+# 零 API Key、零网络即可运行：确定性大脑 + 本地 ChromaDB，失败自动回退关键词检索。
+
+numpy>=1.24
+langgraph>=0.2.0
+chromadb>=0.4.0
+matplotlib>=3.7
+
+# —— 可选：接真实大模型时启用（MockBrain 无需以下依赖）——
+# langchain-openai>=0.1.0
